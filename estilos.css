@@ -93,7 +93,7 @@ a {
 }
 
 .hotbar-item {
-  margin: 0 1rem;
+  margin: 0 0.1em;
   /* Ajustado con 'rem' para responsividad */
   position: relative;
 }
@@ -379,6 +379,7 @@ button {
 
 /* Footer */
 .banner {
+  padding-bottom: 10rem;
   display: flex;
   height: 90px;
 }
@@ -386,15 +387,15 @@ button {
 .blue-rectangle {
   background-color: blue;
   left: 0;
-  width: 50%;
-  height: 100%;
+  width: 70rem;
+  height: 13vh;
 }
 
 .yellow-rectangle {
   background-color: yellow;
   right: 0;
-  width: 50%;
-  height: 100%;
+  width: 50vw;
+  height: 13vh;
   padding: 0;
   margin: 0;
 }
@@ -418,7 +419,7 @@ button {
   }
 
   .hotbar {
-    height: 5%;
+    height: 10%;
     justify-content: center;
   }
 
