@@ -418,20 +418,12 @@ button {
   }
 
   .hotbar {
-    position: fixed;
-  top: 0;
-  z-index: 1000;
-  background: linear-gradient(to bottom, #0057b398, #ffd90079);
-  height: 5rem;
-  width: 100%;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-
+    height: auto;
+    justify-content: center;
   }
 
   .hotbar-item a {
-    padding: 20px 10px;
+    padding: auto;
   }
 
   .container-about-us {
