@@ -418,8 +418,16 @@ button {
   }
 
   .hotbar {
-    height: 60px;
-    justify-content: center;
+    position: fixed;
+  top: 0;
+  z-index: 1000;
+  background: linear-gradient(to bottom, #0057b398, #ffd90079);
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
   }
 
   .hotbar-item a {
