@@ -1,6 +1,6 @@
 /* Estilos Generales */
 * {
-    margin: 0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -30,7 +30,7 @@ a {
 
 /* Header */
 #title {
-  padding-top: 5%;
+  padding-top: 10%;
   text-align: center;
   font-size: 3em;
   /* Ajustado a 'em' para responsividad */
@@ -66,11 +66,16 @@ a {
   top: 0;
   z-index: 1000;
   background: linear-gradient(to bottom, #0057b398, #ffd90079);
-  height: 90px;
+  height: 5rem;
   width: 100%;
   display: flex;
   justify-content: left;
   align-items: center;
+
+
+  padding: 10px 0; /* Añadir padding vertical */
+
+
 }
 
 .hotbar-items {
@@ -78,6 +83,13 @@ a {
   padding: 0;
   margin: 0;
   display: flex;
+
+  align-items: center;
+
+  flex-wrap: wrap; /* Permite que los items pasen a la siguiente línea */
+  justify-content: center;
+
+
 }
 
 .hotbar-item {
@@ -87,6 +99,7 @@ a {
 }
 
 .hotbar-item a {
+
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -109,9 +122,10 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-  border: 2px solid transparent;
+  border-bottom: 4px solid transparent; ;
   transition: border-color 0.3s ease;
   z-index: -1;
+  height: 100%;
 }
 
 .hotbar-item:hover a::before {
@@ -124,7 +138,7 @@ a {
   padding: 5px;
 }
 
-.container {
+.containerAboutUs {
   padding: 4rem 0;
   /* Ajustado con 'rem' para responsividad */
   width: 90%;
@@ -170,7 +184,7 @@ a {
   position: relative;
   flex: 1;
   max-width: 50%;
-  height: 30vh;
+  height: 40vh;
   /* Ajustado a 'vh' para responsividad */
   overflow: hidden;
   min-height: 300px;
@@ -180,7 +194,7 @@ a {
   display: flex;
   transition: transform 1s ease-in-out;
   width: 100%;
-  height: 100%;
+  height: 90%;
   /* Ajustado a 100% para ocupar el contenedor */
   object-fit: cover;
 }
@@ -222,6 +236,7 @@ button {
 }
 
 .dots {
+  z-index: 1000;
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -276,7 +291,7 @@ button {
 }
 
 .image-container {
-  width: 30%;
+  width: 20%;
   /* Ajustado a % para responsividad */
   min-width: 200px;
   /* Establece un tamaño mínimo */
@@ -332,7 +347,7 @@ button {
 }
 
 .athlete {
-  width: 30%;
+  width: 20%;
   min-width: 200px;
   aspect-ratio: 1 / 1;
   position: relative;
@@ -385,8 +400,8 @@ button {
 }
 
 .banner img {
-  width: 90px;
-  height: 90px;
+  height: 6rem;
+  aspect-ratio: 1 / 1;
   position: absolute;
   left: 48%;
 }
