@@ -418,12 +418,12 @@ button {
   }
 
   .hotbar {
-    height: auto;
+    height: 2%;
     justify-content: center;
   }
 
   .hotbar-item a {
-    padding: 0.5rem 1rem;
+    padding: 0.1rem 0.02rem;
   }
 
   .container-about-us {
